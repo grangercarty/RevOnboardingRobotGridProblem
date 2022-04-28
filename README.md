@@ -6,6 +6,6 @@ Use constructor RobotGrid to create a new grid.
 
 Use addOffLimitCell to designate a cell the robot cannot travel on.
 
-Use findPath to find a path (returns true if a path is possible, false otherwise)
+Use findPath to find a path (returns true if a path is possible, false otherwise).
 
-Use printPath to return a list of moves (d means down, r means right) that solves the puzzle.
+Use printPath to return a list of moves that solves the puzzle (Must be used after findPath).
